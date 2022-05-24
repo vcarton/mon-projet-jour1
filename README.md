@@ -14,7 +14,7 @@ lorem epsum
 lorem epsum
 lorem epsum
 
-LOCAL LOCAL LOCAL
+LOCAL LOCAL + GITHUB GITHUB GITHUB
 
 lorem epsum
 lorem epsum
