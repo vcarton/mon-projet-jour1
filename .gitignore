@@ -1,0 +1,13 @@
+.idea/*
+.netbeans/*
+
+*.patch
+
+# Historique des commandes
+history.log
+
+logs/*
+
+logs/*.log
+
+**/.gitkeep
