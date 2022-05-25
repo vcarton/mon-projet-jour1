@@ -1,0 +1,852 @@
+git init mon-projet-jour1
+ls -l
+ls -l
+ls
+ls -l
+cd mon-projet-jour1
+git status
+cd ..
+git status
+cd mon-projet-jour1/
+git status
+ls -l
+ls -la
+ls -la .git/*
+ls -la .git/
+ls -l
+touch hello.txt
+ls -l
+git status
+git status
+git status
+git add hello.txt 
+git status
+touch toto
+git status
+git rm hello.txt
+
+git status
+git add hello.txt 
+git status
+git status
+git add hello.txt
+git status
+git status
+git rm --cached hello.txt
+git status
+git rm --cached hello.txt
+git rm -f --cached hello.txt
+git status
+git status
+git add hello.txt
+git status
+git status
+git add --help
+git add -?
+git add -help
+git status
+git add hello.txt 
+git status
+
+git commit -m "#151  Mon premier commit
+
+
+
+git commit
+
+vim
+git commit -m "Mon premier commit"
+git status
+git status
+git push
+git status
+touch titi
+touch tata
+git status
+git add .
+git status
+git restore --staged tata titi toto
+git status
+git restore --staged tata titi toto
+git add .
+git rm --cached tata titi toto
+git restore --staged tata titi toto
+git status
+mkdir -p src/Controller/
+ls -l
+touch src/Controller/DefaultController.php
+git status
+git add src/
+git status
+mkdir logs
+git status
+touch logs/.gitkeep
+git status
+git add logs
+git status
+git add Tata
+git status
+git add ghgj
+git add Tata -v
+git status
+git push
+git remote
+git remote add origin https://github.com/F2000-FR/mon-projet-jour1.git
+git remote
+git remote -v
+git push
+
+git push
+git push
+git push
+git push
+git fetch
+git fetch
+git merge
+git pull
+git merge develop
+git merge
+git merge origin/master
+git mergemaster
+git log
+git status
+git restore --staged src/Controller/DefaultController.php logs/.gitkeep
+git status
+rm -rf src logs
+git status
+git log
+git push
+git fetch
+git status
+ls -l
+git fetch -?
+git psuh -?
+git push -?
+git fetch
+git 
+git fetch -?
+ls -l
+git merge
+ls -l
+git status
+git add tata
+git status
+git add titi toto
+git status
+git commit tata -m "Tata"
+git status
+git log
+git status
+git fetch
+git status
+git 
+git restore --staged titi toto
+git status
+git merge
+git log
+git show 9f1830529e1baccc2ba3331f8d0ccaa6c7cc3292
+git show 3118f913945aac5daea455e3971e1178ac31ecb1
+git log --graph
+git log --graph --decorate --pretty=oneline --abbrev-commit --all --show-notes=*
+git log --graph --decorate --pretty=oneline --abbrev-commit --all --show-notes=*
+git status
+git log
+git push
+git log --graph --decorate --pretty=oneline --abbrev-commit --all --show-notes=*
+git log
+git status
+git toto
+git add toto
+git status
+git commit -m "toto"
+git fetch
+git status
+git rebase
+git log
+git status
+git merge
+git push
+git log
+git status
+git push
+git pull
+git diff
+git status
+git diff
+git log
+git diff
+git log
+git log
+git status
+git add README.md
+git diff
+git status
+git diff
+git diff --cached
+git diff HEAD
+git diff HEAD --ignore-all-space
+git diff HEAD --ignore-all-space
+git log
+git diff 2eca570c58255b371 3118f913945aac5d
+git diff 3118f913945aac5d 2eca570c58255b371
+git diff 311 2ec
+git log
+git log
+git log -p
+git log
+git show 3118f913945aac5daea455e3971e1178ac31ecb1
+git show 3118f913945aac5daea455e3971e1178ac31ecb1 --help
+git show 3118f913945aac5daea455e3971e1178ac31ecb1 -q
+git show 3118f913945aac5daea455e3971e1178ac31ecb1 --source
+git show 3118f913945aac5daea455e3971e1178ac31ecb1 --source
+git remote
+git tag
+git tag toto
+git log
+git tag v0 3118f
+git log
+git tag v1 -m "Version 1 - New useroffice"
+git show v0
+git show 3118f913945aac5daea4
+git show v0
+git show v1
+git log
+git tag -d toto
+git push origin --tags
+git push --tags
+git push --tag
+git remote -v
+git tag -v
+git tag
+cd ..
+git clone https://github.com/F2000-FR/mon-projet-jour2.git
+ls -l
+cd mon-projet-jour2/
+git log
+git remote -v
+git push
+cd ..
+git push
+cd mon-projet-jour2
+git switch -c toto
+git push
+git push -u origin toto
+git push
+cd ..
+cd ..
+cd www/mm_promup
+git remote -v
+git remote -v
+git fetch --help
+git fetch -help
+git remote -v
+cd ..
+cd ../Formation/mon-projet-jour1
+git status
+git status
+git restore --staged README.md
+git status
+git restore README.md
+git status
+git push
+git pull
+vi README.md 
+vi README.md 
+git status
+git commit README.md -m "Conflit"
+git push
+git status
+git fetch
+git status
+git diff master origin/master
+git diff origin/master master
+clear
+git merge
+git status
+
+git merge
+git status
+cat README.md
+git status
+
+git status
+git merge --abort
+git merge
+git status
+git status
+git commit
+git log
+git push
+vi README.md 
+git status
+git README.md -m "Modifcation READM"
+git commit README.md -m "Modifcation READM"
+git status
+git commit --amend
+git log
+git status
+git add titi
+git status
+git commit titi --amend -m "Modif README + titi"
+git log
+git reset 4c4a9b68fq
+git log
+git log --graph --decorate --pretty=oneline --abbrev-commit --all --show-notes=*
+git log
+git reset --mixed 4c4a9b68fbcb
+git status
+git log
+git status
+git add README.md titi
+git commit -m "Modif README + titi"
+git log
+git reset --soft 4c4a9b68fbcb
+git status
+git restore --staged titi
+git status
+git add titi
+git status
+git commit -m "Modif README + titi"
+git reset --hard 4c4a9b68fbcb
+git status
+touch popo
+touch papa
+git add popo
+git commit popo -m "popo"
+git add papa
+git commit -m "papa"
+git status
+git log
+git reset --soft HEAD~2
+git status
+git commit -m "popo + papa"
+git push
+git log
+git commit --amend "pas bien du tout"
+git commit --amend -m "pas bien du tout"
+git log
+git fetch
+git log
+git status
+git push
+git pull
+git log
+git push
+git status
+git add M2i-Git-Gérer\ le\ versioning-J1.pdf 
+git status
+git commit -m "Support de cours J1"
+git push
+cd ..
+cd ..
+cd www/mm_ki
+cd www/mm_kimpli/
+hp bin/console doctrine:schema:update --dump-sql
+hp bin/console doctrine:schema:update --dump-sql
+php bin/console doctrine:schema:update --dump-sql
+php bin/console doctrine:schema:update --dump-sql
+cd ..
+cd mon-projet-jour1-bis/
+clear
+cd ..
+
+git fetch
+git status
+git push
+git pull
+git log
+git reset --hard d8259
+git pull
+git reset --hard d8259
+git log
+git checkout 28a1687
+git switch -
+git pull
+git reset --hard d8259
+git checkout 433fd49
+git switch -
+git log
+git pull
+git reset --hard d8259
+git push
+git push --force
+git push origin 433fd49:master
+git log origin/master
+git log
+git pull
+git reset --hard d8259
+git push --force
+git log origin/master
+git log
+git log origin/master
+git log origin/master
+git fetch
+git log origin/master
+git status
+history
+history > history.log
+cat history.log 
+git status
+ls ~
+git push origin 433fd49:master
+git push origin 433fd49:master --force
+git pull
+git log
+git revert 433fd49
+git log
+git push
+ls
+git status
+git log
+touch C1
+touch C2
+touch C3
+git add C1
+git commit C1
+git commit C1 -m "C1"
+git add C2 ; git commit C2 -m "C2"
+git add C3 ; git commit C3 -m "C3"
+touch C4 ; git add C4 ; git commit C4 -m "C4"
+touch C5 ; git add C5 ; git commit C5 -m "C5"
+git push
+git fetch
+git log
+git revert 44ab5abc5a07cf3540
+git log
+git log
+git revert 238072fe..1397c8
+git reset --hard HEAD~1
+git revert 631d938e8..1397c8
+git log
+git push
+git revert -help
+git reflog
+git push
+git pull
+clear
+git branch
+git remote
+git tag
+git branch
+git branch -a
+git branch 
+git branch develop
+git branch 
+git log
+git switch develop
+git log
+git switch 
+git switch develop
+touch develop
+git add develop 
+git commit -m "Fichier develop"
+ls -l
+git switch master
+git status
+touch toto14
+git status
+git add toto14
+git status
+git switch develop
+git status
+cd ..
+git clone -help
+git clone https://github.com/F2000-FR/mon-projet-jour1.git mon-projet-jour1-bis
+ls
+ls -l
+cd mon-projet-jour1
+clear
+git branch
+git push
+git push --set-upstream origin develop
+git branch
+git branch -d develop
+git switch master
+
+git branch 
+git branch  -a
+git push origin :develop
+git pull
+git push
+clear
+git branch b1
+git branch b2
+git branch b3
+git branch
+git branch --graph
+git branch
+git switch b1
+git status
+git restore --staged toto14
+git status
+rm toto14
+git status
+touch B1 && git add B1 && git commit -m "B1"
+git log
+git switch b2
+touch B2 && git add B2 && git commit -m "B2"
+git switch b3
+touch B3 && git add B3 && git commit -m "B3"
+git log
+git switch b2
+git log
+git switch b1
+git log
+git switch master
+git merge b1
+git switch b2
+git merge b3
+git log
+git config --list
+git merge -help
+git switch master
+git log
+git merge b2
+git log
+git reset --hard 1d53d5198cde67
+git log
+git switch b2
+git log
+git rebase master
+git log
+git switch master
+git merge b2
+git log
+git reset --hard 1d53d5198cde67f4f08e2306652ae81315794ba6
+git merge b2 --squash
+git status
+git commit -m "B2/B3"
+git status
+git log
+git push
+clear
+vi README.md
+git status
+mkdir logs
+touch logs/2022-05-25.log
+touch logs/2022-05-2.log
+mv logs/2022-05-2.log logs/2022-05-24.log
+git status
+git diff
+git add logs
+git status
+git add README.md
+git status
+git diff --cached
+git diff --cached > mon-patch-v1.patch
+cat mon-patch-v1.patch 
+git status
+git reset --hard origin/master
+git status
+ls
+ls -l
+git status
+git apply mon-patch-v1.patch
+git status
+ls logs -l
+git add M2i-Git-Gérer\ le\ versioning-J1.pdf 
+git status
+git diff --cached
+git diff --cached > patch-2.patch
+git status
+rm M2i-Git-Gérer\ le\ versioning-J1.pdf 
+git status
+git status
+git restore M2i*
+git status
+git restore --staged M2i*
+git status
+rm M2i-Git-Gérer\ le\ versioning-J1.pdf 
+git status
+git apply patch-2.patch
+git status
+git statu
+git status
+rm patch-2.patch 
+git status
+git branch patch-1
+git status
+git add README.md -m "Correctif 1"
+git commiy README.md -m "Correctif 1"
+git commit README.md -m "Correctif 1"
+git reset --soft HEAD~1
+git status
+git switch patch-1 
+git status
+git commit -m "EVO README"
+git add logs
+git status
+git commit -m "Nouveau dossier logs"
+git log
+git format-patch master
+cat 0001-EVO-README.patch
+cat 0002-Nouveau-dossier-logs.patch 
+git switch master
+git status
+ls -l
+git am 0001-EVO-README.patch 
+git log
+git status
+git am 0002-Nouveau-dossier-logs.patch
+git log
+git status
+git log
+git push
+git cherry-pick b08fd94f005c8ec1613d8fec967891407638f258
+git fetch
+git cherry-pick b08fd94f005c8ec1613d8fec967891407638f258
+git log
+ls
+git log
+git status
+git add .
+git status
+git restore --staged *
+git status
+git restore --staged .idea
+git status
+touch .gitignore
+git status
+git add .gitignore
+git status
+git status
+git status
+ls logs
+touch logs/.gitkeep
+ls
+git add mon-patch-v1.patch
+git status
+git add .gitignore
+git status
+git status
+git commit -m ".gitignore"
+git push
+git pull
+git branch
+git switch develop
+git switch -c develop
+
+touch index.html
+git status
+git add .
+git commit -am "#484 feat: Ajout page accueil + contact"
+git push -u origin feature-1
+git switch develop 
+git push -u origin develop
+git switch -c feature-2
+touch agency.html
+git status
+git status
+git switch feature-1
+git status
+git status
+git commit contact.html -m "Retours relecture"
+git push
+git status
+git commit contact.html -m "Retours relecture (2)"
+git push
+git status
+git switch feature-2
+git status
+git commit -am "DRAFT"
+git reset --soft HEAD~1
+git remote
+git tag
+git stash list
+git status
+git stash
+git stash list
+git status
+ls -l
+git add agency.html 
+git status
+git stash push -m "Module agence (draft)"
+git stash list
+git status
+touch tartempion
+git status
+git status
+git add README.md
+git status
+git add tartempion
+git status
+git stash push -m "Module Tartempion (draft)"
+git stash list
+git switch feature-1
+git stash list
+git stash show
+git stash show 0
+git stash show
+git satus
+git status
+git stash show
+git stash show -p
+git stash apply 
+git stash list
+git stash drop 0
+git stash list
+git stash pop 0
+git commit README.md -m "Modif README"
+git switch feature-2
+git status
+git switch feature-1
+git switch feature-1
+git stash push -m "En cours"
+git status
+git switch feature-1
+git stash list
+git stash 0
+git stash pop 0
+git status
+git add README.md
+git status
+git stash list
+git stash drop 0
+git commit -am "Agence"
+git push
+git switch develop 
+vi README.md 
+git add README.md 
+git commit -am "UPD README"
+git push
+git switch feature-1
+git rebase develop
+git status
+git status
+git add README.md
+git status
+git rebase --continue
+git log
+git push
+git push --force
+git switch develop 
+vi README.md 
+git commit -am "Conflit 2"
+git push
+git switch feature-1
+git rebase develop
+git status
+git add README.md 
+git status
+git rebase --continue
+vi README.md 
+git add README.md 
+git rebase --continue
+git status
+git log
+git push
+git push -v
+git pull
+cat
+cat README.md 
+vi README.md 
+git status
+git add README.md 
+git status
+git commit
+git log
+git status
+git reset c52896c145a878e85b3ae8baef124aa96b97d90b --hard
+git status
+git push
+git status
+git log
+git rebase --interactive HEAD~5
+git add README.md 
+git rebase --continue
+git add README.md 
+git rebase --continue
+git push
+git push --force
+git log
+git rebase -i HEAD~4
+git add README.md
+git rebase --continue
+git add README.md
+git rebase --continue
+git log
+git push 
+git push --force
+git switch develop 
+git pull
+git status
+touch C1 ; git add C1 ; git commit -m "C1"
+touch C2 ; git add C2 ; git commit -m "C2"
+touch C3 ; git add C3 ; git commit -m "C3"
+touch C4 ; git add C4 ; git commit -m "C4"
+touch C5 ; git add C5 ; git commit -m "C5"
+touch C6 ; git add C6 ; git commit -m "C6"
+git log
+git status
+git log
+git status
+git status
+ls
+ls -l
+git status
+git log
+git reset --hard HEAD~1
+touch C4a ; git add C4a ; git commit -m "C4"
+touch C5a ; git add C5a ; git commit -m "C5"
+touch C6 ; git add C6 ; git commit -m "C6"
+git log
+git rebase -i 
+git log
+git status
+git switch feature-1
+git commit --amend
+touch C7 ; git add C7 ; git commit -m "C7"
+git rebase --edit-todo
+git rebase --continue
+git log
+git push
+git blame README.md
+cd ..
+git clone https://github.com/F2000-FR/git-debug.git
+cd git-debug/
+git log
+sh script.sh                
+git bisect start
+git bisect bad HEAD
+git bisect good .603ea3f542
+git bisect good 603ea3f542
+ls -l
+sh script.sh                
+git bisect bad
+sh script.sh                
+git bisect good
+sh script.sh               
+git bisect good
+sh script.sh               
+git bisect bad
+sh script.sh               
+git bisect bad
+git show 990df4a7a89c3ecd3aa4b63522eb247ac73b08b2
+git bisect reset 
+git status
+ls -l
+cat verif.sh
+git status
+ls
+cp verif.sh verif2.sh 
+git status
+git bisect start
+git bisect good 603ea3f542
+git bisect bad HEAD
+git bisect run ./verif2.sh
+git bisect reset
+cd ../mon-projet-jour1
+ls .git/hooks -l
+cat .git/hooks/pre-commit.sample
+ls .git/hooks -l
+vi .git/hooks/pre-commit.sample 
+mv .git/hooks/pre-commit.sample .git/hooks/pre-commit
+vi index.php
+git add index.php 
+git commit -am " OK ? "
+vi index.php
+git commit -am " OK ? (2)"
+git status
+git commit -am " OK ? (2)" --no-verify
+mv .git/hooks/
+history > history.log
